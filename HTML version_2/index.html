@@ -1,0 +1,82 @@
+<html>
+<head>
+    <title>test</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+
+
+<body>
+    <!-- <form id="formElem">
+        <input type="text" name="firstname" value="Karam">
+        <input type="text" name="lastname" value="Yousef">
+        <input type="text" name="email" value="demo@demo.com">
+        <input type="text" name="phone" value="9768883184">
+        <input type="text" name="comment" value="hello">
+        
+        
+        <input type="submit">
+    </form> -->
+
+    <div class="container">
+      <h1>Create A Ticket</h1>
+
+    <form id="formElem">
+
+        <div class="form-group">
+          <label for="firstName">Subject</label>
+          <input type="text" id="firstname" value="Subject" name="subject">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" id="email" value="hello_world@gmail.com" name="email">
+        </div>
+  
+        <div class="form-group">
+          <label for="latsName" id="lastname">Description</label>
+          <input type="text" id="lastname" value="description" name="description">
+          <!-- <textarea name="lastname" value="qwerty" cols="30" rows="10"></textarea> -->
+        </div>
+
+        <div class="form-group">
+          <label for="email">Status</label>
+          <input type="number" id="fresh_status" name="fresh_status">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Priority</label>
+          <input type="number" id="priority" name="priority">
+        </div>
+        
+        
+        <!-- <div class="form-group">
+            <label for="email">Phone No</label>
+            <input type="text" id="phone" value="000000" name="phone">
+          </div> -->
+  
+        <!-- <div class="form-group">
+          <label for="massage">Message</label>
+          <textarea name="comment" value="qwerty" id="comment" cols="30" rows="10"></textarea>
+        </div>
+   -->
+        <button id="submit-button" type="submit">Submit</button>
+        <button id="database" type="submit">See Database</button>
+      </form>
+
+    </div>
+
+    <div id="status"></div>
+
+
+    <div class="container">
+        <div class="form-group">
+            <div id="decoded"></div>
+            <!-- <button id="database">See Database</button> -->
+            <div id="encoded"></div>
+        </div>
+    </div> 
+</body>
+</html>
